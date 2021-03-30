@@ -1,8 +1,12 @@
-h1= err.message
-h2= err.status 
-pre= err.stack
+extends layout.pug
 
-nav.nav
-      a(href='/')
-        span &larr;
-        |  Back
+block content
+
+  h1= err.message
+  h2= err.status 
+  pre= err.stack
+
+  nav.nav
+        a(href='/')
+          span &larr;
+          |  Back
