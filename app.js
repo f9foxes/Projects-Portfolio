@@ -4,11 +4,10 @@ const app = express();
 const { projects } = require('./data.json');
 
 //Set view engine to pug
-app.set('views', 'Projects-Portfolio/views');
 app.set('view engine', 'pug');
 
 //Serve static files in public folder
-app.use('/static', express.static('Projects-Portfolio/public'));
+app.use('/static', express.static('public'));
 
 //Routes to home page
 app.get('/', (req, res) => {
