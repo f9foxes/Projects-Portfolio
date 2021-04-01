@@ -1,0 +1,49 @@
+{
+    "projects": [
+        {
+            "id": 0,
+            "project_name": "Random Quote Generator",
+            "description": "This app generates random quotes from an array of quotes when a button is clicked",
+            "technologies": ["JavaScript", "variables", "loops", "conditionals", "object literals"],
+            "live_link": "https://f9foxes.github.io/random-quote-generator/",
+            "github_link": "https://github.com/f9foxes/random-quote-generator.git",
+            "image_urls": ["/static/images/1_quote.png", "/static/images/1.1_quote.png"]
+        },
+        {
+            "id": 1,
+            "project_name": "Data Pagination",
+            "description": "This app displays nine student profiles per page from an array of student objects. Pages can be clicked to see additional students. Names can be searched in the search bar and pages will be dynamically updated according to the search.",
+            "technologies": ["JavaScript", "HTML", "CSS"],
+            "live_link": "https://f9foxes.github.io/data-pagination/",
+            "github_link": "https://github.com/f9foxes/data-pagination.git",
+            "image_urls": ["/static/images/2_pagination.png", "/static/images/2.1_pagination.png", "/static/images/2.2_pagination.png"]
+        },
+        {
+            "id": 2,
+            "project_name": "Interactive Form",
+            "description": "This app is a form that uses JavaScript to enhance it with customized and conditional behavior and interactivity. It validates user input and provides helpful error messages when the user enters invalid information into the form fields.",
+            "technologies": ["JavaScript", "HTML", "CSS"],
+            "live_link": "https://f9foxes.github.io/interactive-form2020/",
+            "github_link": "https://github.com/f9foxes/interactive-form2020.git",
+            "image_urls": ["/static/images/3_main_form.png", "/static/images/3.1_form.png", "/static/images/3.2_form.png"]
+        },
+        {
+            "id": 3,
+            "project_name": "Phrase Hunter",
+            "description": "This app is a browser-based, word guessing game. JavaScript and OOP (Object-Oriented Programming) is used select a random, hidden phrase, which a player tries to guess, by clicking letters on an onscreen keyboard or with their physical keyboard. Win the game by guessing the phrase before five incorrect guesses.",
+            "technologies": ["JavaScript", "HTML", "CSS"],
+            "live_link": "https://f9foxes.github.io/Phrase-Hunter/",
+            "github_link": "https://github.com/f9foxes/Phrase-Hunter.git",
+            "image_urls": ["/static/images/4_phrase.png", "/static/images/4.1_phrase.png", "/static/images/4.2_phrase.png"]
+        },
+        {
+            "id": 4,
+            "project_name": "Employee Directory",
+            "description": "This app requests a JSON object from a public API and parses the data so that 12 employees are listed in a grid with their thumbnail image, full name, email, and location. Clicking the employee’s image or name will open a modal window with more detailed information, such as the employee’s birthday and address.  working with public APIs, making API requests, and asynchronous handling the data that will be returned from your requests and displayed in an app.",
+            "technologies": ["JavaScript", "HTML", "CSS"],
+            "live_link": " https://f9foxes.github.io/employeeDirectory/",
+            "github_link": "https://github.com/f9foxes/employeeDirectory.git",
+            "image_urls": ["/static/images/5_apirequest.png", "/static/images/5.1_apirequest.png"]
+        }
+    ]
+}
